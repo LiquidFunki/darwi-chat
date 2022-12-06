@@ -1,0 +1,65 @@
+.shop_title {
+    font-size: 45px;
+    color: #c4c4c4;
+}
+
+.shop_grid {
+    background-image: url("../images/enl_shop_background.png");
+    border-width: 10px;
+    border: rgba(0, 0, 0, 0.0);
+}
+.shop_layout {
+    border-width: 10px;
+    border: rgba(0, 0, 0, 0.0);
+}
+
+.shop_title_grid {
+    background: rgba(24, 24, 24, 0.5);
+}
+
+.explanation_button {
+    background-image: url("../images/explanation_icon.png");
+    border: rgba(0, 0, 0, 0.0);
+}
+.money_label {
+    color: #c4c4c4;
+}
+.shop_item1 {
+    border-radius: 10px;
+    background-image: url("../images/enl_shop_item1.png");
+    border: rgba(0, 0, 0, 0.0);
+}
+
+.shop_item2 {
+    border-radius: 10px;
+    background-image: url("../images/enl_shop_item2.png");
+    border: rgba(0, 0, 0, 0.0);
+}
+
+.shop_item3 {
+    border-radius: 10px;
+    background-image: url("../images/enl_shop_item3.png");
+    border: rgba(0, 0, 0, 0.0);
+}
+
+.shop_item4 {
+    border-radius: 10px;
+    background-image: url("../images/enl_shop_item4.png");
+    border: rgba(0, 0, 0, 0.0);
+}
+
+.shop_item5 {
+    border-radius: 10px;
+    background-image: url("../images/enl_shop_item5.png");
+    border: rgba(0, 0, 0, 0.0);
+}
+
+.shop_item6 {
+    border-radius: 10px;
+    background-image: url("../images/enl_shop_item6.png");
+    border: rgba(0, 0, 0, 0.0);
+}
+.money_icon {
+    background-image: url("../images/coin.png");
+    border: rgba(0, 0, 0, 0.0);
+}

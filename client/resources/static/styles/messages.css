@@ -1,0 +1,62 @@
+.message_label{
+    font-size: 14pt;
+    color: #F5F5F5;
+    background-color: #4A402A;
+    border-radius: 10px; 
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}   
+
+.forward_label{
+    font-size: 10pt;
+    background-color: rgba(18, 117, 117, 0.2);
+    color: rgba(141, 236, 236, 0.966);
+    border-radius: 300px; 
+    border: solid #000000 0.8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bolder;
+}   
+
+
+.user_button{
+    background: rgba(0, 0, 0, 0.0);
+    border:rgba(0, 0, 0, 0.0);
+    /* height: 100px; */
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user_button_new_message {
+    background: rgba(212, 209, 209, 0.774);
+    border:rgba(0, 0, 0, 0.0);
+    /* height: 100px; */
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation-duration: 3s;
+    animation-name: new_message;
+  }
+  
+  @keyframes new_message {
+    from {
+        margin-bottom: 20px;
+      }
+    
+      to {
+        margin-top: 0px;
+      }
+  }
+
+.chat_window_viewport {
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+.send_message_button {
+    /* opacity: 1.0; */
+    background: url("../images/send_button.png");
+}

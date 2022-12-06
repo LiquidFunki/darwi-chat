@@ -1,0 +1,19 @@
+.quiz_label{
+    font-size: 14pt;
+    border-radius: 10px; 
+    margin: 30px;
+}  
+.answer {
+    border-radius: 10px;
+    border:rgba(0, 0, 0, 0.0);
+    color: #181818;
+    font-size: 13pt;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.quiz_grid {
+    background: rgba(24, 24, 24, 0.8);
+    border:rgba(0, 0, 0, 0.0);
+    opacity: 0.8;
+}

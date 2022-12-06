@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkImage" id="user_image">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <style>
+      <class name="user_image"/>
+    </style>
+  </object>
+  <object class="GtkButton" id="person_chat_button">
+    <property name="label" translatable="yes">user name</property>
+    <property name="width-request">100</property>
+    <property name="height-request">100</property>
+    <property name="visible">True</property>
+    <property name="can-focus">True</property>
+    <property name="receives-default">True</property>
+    <property name="image">user_image</property>
+    <property name="image-position">top</property>
+    <property name="always-show-image">True</property>
+    <style>
+      <class name="user_button"/>
+    </style>
+  </object>
+
+</interface>

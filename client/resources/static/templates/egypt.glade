@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkLayout" id="home_page_layout">
+    <property name="name">1</property>
+    <property name="width_request">1366</property>
+    <property name="height_request">768</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkEventBox" id="home_page_event_box">
+        <property name="width_request">100</property>
+        <property name="height_request">80</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkFixed" id="home_page_fixed">
+            <property name="width_request">1366</property>
+            <property name="height_request">768</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkMenuButton" id="add_chat_button">
+                <property name="width_request">75</property>
+                <property name="height_request">75</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="focus_on_click">False</property>
+                <property name="receives_default">True</property>
+                <property name="use_popover">False</property>
+                <child>
+                  <placeholder/>
+                </child>
+                <style>
+                  <class name="add_chat_button"/>
+                </style>
+              </object>
+              <packing>
+                <property name="x">1275</property>
+                <property name="y">660</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow" id="home_chats_scrolled_window">
+                <property name="width_request">1126</property>
+                <property name="height_request">116</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkViewport" id="home_chats_viewport">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkGrid" id="home_chats_grid">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <child>
+                          <placeholder/>
+                        </child>
+                        <style>
+                          <class name="home_chats_grid"/>
+                        </style>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <style>
+                  <class name="home_chats_scrolled_window"/>
+                </style>
+              </object>
+              <packing>
+                <property name="x">140</property>
+                <property name="y">640</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkGrid" id="settings_window_grid">
+                <property name="width_request">116</property>
+                <property name="height_request">744</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkMenuButton" id="profile_info_button">
+                    <property name="width_request">116</property>
+                    <property name="height_request">70</property>
+                    <property name="can_focus">True</property>
+                    <property name="focus_on_click">False</property>
+                    <property name="receives_default">True</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <style>
+                      <class name="profile_info_button"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkImage" id="profile_photo">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <!-- <property name="pixbuf">../images/profile_photo.png</property> -->
+                    <style>
+                      <class name="profile_photo"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="user_name">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <!-- <property name="label" translatable="yes">Mary</property> -->
+                    <style>
+                      <class name="user_name"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkMenuButton" id="quiz_button">
+                    <property name="width_request">116</property>
+                    <property name="height_request">70</property>
+                    <property name="can_focus">True</property>
+                    <property name="focus_on_click">False</property>
+                    <property name="receives_default">True</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <style>
+                      <class name="quiz_button"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkMenuButton" id="shop_button">
+                    <property name="width_request">116</property>
+                    <property name="height_request">70</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="has_tooltip">True</property>
+                    <property name="direction">up</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <style>
+                      <class name="shop_button"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkMenuButton" id="settings_button">
+                    <property name="width_request">116</property>
+                    <property name="height_request">70</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="focus_on_click">False</property>
+                    <property name="receives_default">True</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <style>
+                      <class name="settings_button"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">5</property>
+                  </packing>
+                </child>
+                <style>
+                  <class name="settings_window_grid"/>
+                </style>
+              </object>
+              <packing>
+                <property name="x">12</property>
+                <property name="y">12</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <style>
+          <class name="home_page_event_box"/>
+        </style>
+      </object>
+    </child>
+    <child>
+      <object class="GtkLayout" id="chat_window_layout">
+        <property name="width_request">1214</property>
+        <property name="height_request">668</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="width">1214</property>
+        <child>
+          <object class="GtkEventBox" id="egypt_bg_event_box">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkFixed" id="chat_window_fixed">
+                <property name="width_request">1214</property>
+                <property name="height_request">617</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkScrolledWindow" id="chat_window_scrolled">
+                    <property name="width_request">1214</property>
+                    <property name="height_request">475</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="shadow_type">in</property>
+                    <child>
+                      <object class="GtkViewport" id="chat_window_viewport">
+                        <property name="width_request">1214</property>
+                        <property name="height_request">475</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <child>
+                          <object class="GtkGrid" id="chat_window_grid">
+                            <property name="width_request">1214</property>
+                            <property name="height_request">613</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <child>
+                              <placeholder/>
+                            </child>
+                            <style>
+                              <class name="chat_window_grid"/>
+                            </style>
+                          </object>
+                        </child>
+                        <style>
+                          <class name="chat_window_viewport"/>
+                        </style>
+                      </object>
+                    </child>
+                    <style>
+                      <class name="chat_window_scrolled"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkGrid" id="choose_chat_grid">
+                    <property name="width_request">1214</property>
+                    <property name="height_request">40</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkButton" id="send_message_button">
+                        <property name="width_request">40</property>
+                        <property name="height_request">40</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <style>
+                          <class name="send_message_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">2</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkEntry" id="type_message_entry">
+                        <property name="width_request">1179</property>
+                        <property name="height_request">40</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <style>
+                          <class name="type_message_entry"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <!-- <child>
+                      <object class="GtkFileChooserButton" id="gtkfile_chooser_button">
+                        <property name="visible">False</property>
+                        <property name="can_focus">False</property>
+                        <property name="margin_left">12</property>
+                        <property name="title" translatable="yes"/>
+                        <style>
+                          <class name="gtkfile_chooser_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child> -->
+                    <style>
+                      <class name="choose_chat_grid"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="y">428</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkGrid" id="choose_word_2era_grid">
+                    <property name="width_request">1214</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="row_homogeneous">True</property>
+                    <property name="column_homogeneous">True</property>
+                    <child>
+                      <object class="GtkButton" id="button1_4">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_left">20</property>
+                        <property name="margin_right">20</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">3</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button_refresh_words">
+                        <property name="width_request">35</property>
+                        <property name="height_request">43</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                        <property name="valign">center</property>
+                        <property name="margin_right">6</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="button_refresh_words"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">4</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button2_4">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">3</property>
+                        <property name="top_attach">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button1_3">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_left">20</property>
+                        <property name="margin_right">20</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">2</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button2_3">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">2</property>
+                        <property name="top_attach">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button1_2">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_left">20</property>
+                        <property name="margin_right">20</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button2_2">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_left">7</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button1_1">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_left">23</property>
+                        <property name="margin_right">20</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button2_1">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_left">23</property>
+                        <property name="margin_right">20</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button1_5">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_left">20</property>
+                        <property name="margin_right">20</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">4</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="button2_5">
+                        <property name="label" translatable="yes">button</property>
+                        <property name="width_request">200</property>
+                        <property name="height_request">35</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">center</property>
+                        <property name="valign">center</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
+                        <property name="hexpand">True</property>
+                        <property name="vexpand">True</property>
+                        <style>
+                          <class name="word_button"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="left_attach">4</property>
+                        <property name="top_attach">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <style>
+                      <class name="choose_word_2era_grid"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="y">474</property>
+                  </packing>
+                </child>
+                <style>
+                  <class name="chat_window_fixed"/>
+                </style>
+              </object>
+            </child>
+            <style>
+              <class name="egypt_bg_event_box"/>
+            </style>
+          </object>
+        </child>
+        <style>
+          <class name="chat_window_layout"/>
+        </style>
+      </object>
+      <packing>
+        <property name="x">140</property>
+        <property name="y">12</property>
+      </packing>
+    </child>
+    <style>
+      <class name="home_page_layout"/>
+    </style>
+  </object>
+</interface>

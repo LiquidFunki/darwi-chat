@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkLayout" id="draw_layout">
+    <property name="name">draw_layout</property>
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>  
+    <property name="width">1214</property>
+    <property name="height">668</property>
+    <child>
+      <object class="GtkFixed" id="drawing_area_fixed">
+        <property name="name">drawing_area_fixed</property>
+        <property name="width-request">1214</property>
+        <property name="height-request">668</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage" id="draw_image">
+            <property name="name">draw_image</property>
+            <property name="visible">True</property>
+            <property name="width-request">1214</property>
+            <property name="height-request">668</property>
+            <property name="can-focus">False</property>
+            <!-- <property name="pixbuf">../images/rock.png</property> -->
+            <accessibility>
+              <relation type="embeds" target="draw"/>
+            </accessibility>
+          </object>
+        </child>
+        <child>
+          <object class="GtkDrawingArea" id="draw">
+            <property name="name">draw</property>
+            <property name="width-request">1214</property>
+            <property name="height-request">668</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <signal name="button-press-event" handler="on_draw_button_press_event" swapped="no"/>
+            <signal name="button-release-event" handler="on_draw_button_release_event" swapped="no"/>
+            <signal name="draw" handler="on_draw_draw" swapped="no"/>
+            <signal name="motion-notify-event" handler="on_draw_motion_notify_event" swapped="no"/>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="x">0</property>
+      </packing>
+    </child>
+  </object>
+</interface>

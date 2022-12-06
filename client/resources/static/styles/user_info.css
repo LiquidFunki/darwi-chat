@@ -1,0 +1,12 @@
+.user_info_grid {
+    background: #c4c4c4;
+    border:rgba(0, 0, 0, 0.0);
+    opacity: 0.8;
+}
+
+.user_info_label_title {
+    color: #181818;
+}
+.user_info_content {
+    color: #181818;
+}

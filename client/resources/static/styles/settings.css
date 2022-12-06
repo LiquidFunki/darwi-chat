@@ -1,0 +1,31 @@
+.settings_grid {
+    background-color: #c4c4c4;
+    border:rgba(0, 0, 0, 0.0);
+    opacity: 0.8;
+}
+
+.decline_edit_button {
+    border:rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    background-image: url("../images/close.png");
+}
+.accept_edit_button {
+    border:rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    background-image: url("../images/tick.png");
+}
+
+.edit_info_entry {
+    border-radius: 10px;
+    background-color: #181818;
+    color: #c4c4c4;
+    font-size: 18px;
+}
+.edit_grid {
+    background-color: #c4c4c4;
+    border:rgba(0, 0, 0, 0.0);
+    opacity: 0.8;
+}
+.edit_title {
+    font-size: 18px;
+}

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkLayout" id="shop_layout">
+    <property name="width_request">1214</property>
+    <property name="height_request">741</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="width">400</property>
+    <property name="height">600</property>
+    <child>
+      <object class="GtkGrid" id="shop_grid">
+        <property name="width_request">1214</property>
+        <property name="height_request">741</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkGrid" id="shop_title_grid">
+            <property name="width_request">1214</property>
+            <property name="height_request">67</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkLabel" id="shop_title">
+                <property name="width_request">1122</property>
+                <property name="height_request">67</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">	Shop</property>
+                <style>
+                  <class name="shop_title"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkMenuButton" id="explanation_button">
+                <property name="label" translatable="yes">
+</property>
+                <property name="width_request">50</property>
+                <property name="height_request">67</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="margin_left">7</property>
+                <child>
+                  <placeholder/>
+                </child>
+                <style>
+                  <class name="explanation_button"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkGrid">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkLabel" id="money_label">
+                    <property name="width_request">35</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_top">3</property>
+                    <!-- <property name="label" translatable="yes">15</property> -->
+                    <style>
+                      <class name="money_label"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkImage">
+                    <property name="name">money_image</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_top">7</property>
+                    <property name="pixbuf">../images/coin.png</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <style>
+              <class name="shop_title_grid"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkGrid" id="shop_items_grid">
+            <property name="width_request">1214</property>
+            <property name="height_request">557</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">90</property>
+            <property name="margin_right">90</property>
+            <property name="margin_top">119</property>
+            <child>
+              <object class="GtkButton" id="shop_item1">
+                <property name="width_request">251</property>
+                <property name="height_request">184</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="margin_bottom">64</property>
+                <style>
+                  <class name="shop_item1"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="shop_item2">
+                <property name="width_request">251</property>
+                <property name="height_request">184</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="margin_left">138</property>
+                <property name="margin_right">138</property>
+                <property name="margin_bottom">64</property>
+                <style>
+                  <class name="shop_item2"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="shop_item3">
+                <property name="width_request">251</property>
+                <property name="height_request">184</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="margin_bottom">64</property>
+                <style>
+                  <class name="shop_item3"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="shop_item4">
+                <property name="width_request">251</property>
+                <property name="height_request">184</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <style>
+                  <class name="shop_item4"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="shop_item5">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="margin_left">138</property>
+                <property name="margin_right">138</property>
+                <style>
+                  <class name="shop_item5"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="shop_item6">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <style>
+                  <class name="shop_item6"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <style>
+          <class name="shop_grid"/>
+        </style>
+      </object>
+    </child>
+    <style>
+      <class name="shop_layout"/>
+    </style>
+  </object>
+</interface>

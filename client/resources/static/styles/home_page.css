@@ -1,0 +1,65 @@
+.home_page_event_box {
+    background-color: #4A2121;
+}
+.settings_window_grid {
+    background-color: #371313;
+    border-radius: 10px;
+}
+.chat_window_scrolled {
+    background-image: url("../images/stone.png");
+    border:rgba(0, 0, 0, 0.0);
+}
+.home_chats_grid {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.home_chats_scrolled_window {
+    border:rgba(0, 0, 0, 0.0);
+    background-color: #371313;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.profile_photo {
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+.user_name {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 68px;
+}
+
+.quiz_button {
+    border:rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    margin-bottom: 65px;
+}
+
+.settings_button {
+    border:rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    /* margin-top: 72px; */
+    /* margin-bottom: 40px; */
+}
+.profile_info_button {
+    border:rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    margin-bottom: 65px;
+}
+.shop_button {
+    border:rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    margin-bottom: 65px;
+}
+.add_chat_button {
+    border:rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    background-image: url("../images/plus.png");
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}

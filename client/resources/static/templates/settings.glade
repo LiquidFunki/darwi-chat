@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkLayout" id="settings_layout">
+    <property name="width_request">200</property>
+    <property name="height_request">300</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="width">400</property>
+    <property name="height">600</property>
+    <child>
+      <object class="GtkGrid" id="settings_grid">
+        <property name="width_request">200</property>
+        <property name="height_request">300</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="hexpand">True</property>
+        <property name="vexpand">True</property>
+        <property name="row_spacing">10</property>
+        <property name="row_homogeneous">True</property>
+        <property name="column_homogeneous">True</property>
+        <child>
+          <object class="GtkMenuButton" id="set_new_photo">
+            <property name="label" translatable="yes">Set new photo</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="settings_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkMenuButton" id="edit_name">
+            <property name="label" translatable="yes">Edit name</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="settings_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkMenuButton" id="edit_personal_info">
+            <property name="label" translatable="yes">Edit personal info</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="settings_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkMenuButton" id="edit_phone_number">
+            <property name="label" translatable="yes">Edit phone number</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="settings_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkMenuButton" id="edit_email">
+            <property name="label" translatable="yes">Edit email</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="settings_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="log_out">
+            <property name="label" translatable="yes">Log out</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="settings_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <style>
+          <class name="settings_grid"/>
+        </style>
+      </object>
+    </child>
+  </object>
+</interface>

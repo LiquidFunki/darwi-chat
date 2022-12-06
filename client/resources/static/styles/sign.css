@@ -1,0 +1,11 @@
+
+.user_n_password{
+    border-width: 0px;
+    border-color: transparent;
+}
+
+.user_n_password_error{
+    border-width: 5px;
+    border-color: red;
+}
+ 

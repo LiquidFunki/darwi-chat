@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkLayout" id="shop_explanation_layout">
+    <property name="name">1</property>
+    <property name="width_request">300</property>
+    <property name="height_request">100</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkLabel" id="shop_explanation_label">
+        <property name="width_request">300</property>
+        <property name="height_request">100</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">Welcome to the Shop. 
+Spend your money for better chatting</property>
+        <style>
+          <class name="shop_explanation_label"/>
+        </style>
+      </object>
+    </child>
+    <style>
+      <class name="shop_explanation_layout"/>
+    </style>
+  </object>
+</interface>

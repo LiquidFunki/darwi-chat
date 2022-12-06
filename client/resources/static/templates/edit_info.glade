@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkLayout" id="edit_info_layout">
+    <property name="width_request">400</property>
+    <property name="height_request">148</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="width">400</property>
+    <property name="height">600</property>
+    <child>
+      <object class="GtkGrid" id="edit_grid">
+        <property name="width_request">400</property>
+        <property name="height_request">148</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkGrid" id="edit_info_grid">
+            <property name="width_request">400</property>
+            <property name="height_request">43</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkLabel" id="edit_title">
+                <property name="width_request">329</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_top">10</property>
+                <style>
+                  <class name="edit_title"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="accept_edit_button">
+                <property name="width_request">35</property>
+                <property name="height_request">10</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <style>
+                  <class name="accept_edit_button"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="decline_edit_button">
+                <property name="width_request">10</property>
+                <property name="height_request">10</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <style>
+                  <class name="decline_edit_button"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <style>
+              <class name="edit_info_grid"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="edit_info_entry">
+            <property name="width_request">327</property>
+            <property name="height_request">52</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="margin_left">30</property>
+            <property name="margin_right">30</property>
+            <property name="margin_top">20</property>
+            <style>
+              <class name="edit_info_entry"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <style>
+          <class name="edit_grid"/>
+        </style>
+      </object>
+    </child>
+    <style>
+      <class name="edit_info_layout"/>
+    </style>
+  </object>
+</interface>
